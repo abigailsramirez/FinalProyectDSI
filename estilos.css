@@ -1,0 +1,204 @@
+*
+{
+	margin: 0px; 
+	padding: 0px; 
+}
+
+header
+{
+	width: 100%; 
+	height: 80px; 
+	background: linear-gradient(#060609, #151823); 
+	position: relative;
+	float: left;
+}
+
+	#logo, nav, #usuario
+	{
+		position: relative;
+		float: left;
+		height: 100%;
+	}
+
+		#logo > img
+		{
+			overflow: hidden;
+			border-radius: 15px;
+			margin-left: 15px;
+			cursor: pointer;
+			height: 100%;
+		}
+
+	#logo
+	{
+		width: 150px;
+		padding:10px 30px;
+		box-sizing: border-box;
+		cursor:pointer;
+	}
+
+	nav
+	{
+		width: calc(100% - 350px);
+	}
+
+		ul
+		{
+			height: 100%;
+			list-style: none;
+		}
+
+		li	
+		{
+			position: relative;
+			float: left;
+			padding-left:20px;
+			padding-right:20px;
+			box-sizing: border-box;
+			height: 100%;
+			line-height: 80px;
+			color: white;
+			text-transform: uppercase;
+			font-size:16px;
+			cursor:pointer;
+		}
+
+		li > img
+		{
+			height: 16px;
+			margin-right: 5px;
+		}
+
+	#usuario
+	{
+		width: 200px;
+		padding: 10px 20px;
+		box-sizing: border-box;
+	}
+
+		p
+		{
+			color: white;
+			font-size: 16px;
+			position:relative;
+			float: left;
+			line-height: 40px;
+			margin: 10px;
+		}
+
+		#usuario_img
+		{
+			height: 100%;
+			width: 60px;
+			border-radius: 50%;
+			position: relative;
+			float: left;
+			background-color: white;
+			overflow: hidden;
+		}
+
+		#usuario_img > img
+		{
+			height: 140%;
+		}
+
+section
+{
+	width : 100%;
+	background-color: #151823;
+	position: relative;
+	float: left;
+	padding-bottom: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;	
+}
+
+	article,aside,#contenido
+	{
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+
+	article
+	{
+		width: 80% !important;
+		height: 350px;
+		border-radius: 30px;
+		overflow: hidden;
+		margin-left: 10%;
+		cursor: pointer;
+	}
+
+		article > img
+		{
+			height: 100%;
+			width: 1050px;
+		}
+
+	aside
+	{
+		height: 200px;
+		padding: 30px;
+		box-sizing: border-box;
+	}
+
+		.temas
+		{
+			width: 230px;
+			height: 100%;
+			background-color: #272934;
+			position: relative;
+			float:left;
+			margin-left: 30px;
+			border-radius: 15px;
+			border: 4px solid #3C3D46;
+			box-sizing: border-box;
+			text-align: center;
+			overflow: hidden;
+
+		}
+
+		.temas > img{
+			height: 100%;
+		}
+
+		.temas > img{
+			height: 100%;
+		}
+
+	#contenido
+	{
+		padding: 30px;
+		box-sizing: border-box;
+	}
+
+		.bloque{
+			height: 250px;
+			margin-bottom: 20px;
+		}
+
+			.bloque>h3{
+				color: #FFF;
+				font-size: 24px;
+			}
+			.peliculas{
+				position: relative;
+				float: left;
+				width: 19%;
+				height: 200px;
+				margin-top: 10px;
+				overflow: hidden;
+				border-radius: 15px;
+				margin-left: 15px;
+				cursor: pointer;
+			}
+
+			.primero{
+				margin-left: 0px !important;
+			}
+
+				.peliculas>img{
+					height: 100%;
+				}
